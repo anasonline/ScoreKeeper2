@@ -22,52 +22,39 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addGoalTeamA(View v) {
-
         goalsTeamA = goalsTeamA + 1;
         displayGoalsForTeamA(goalsTeamA);
-
     }
 
     public void addYellowCardTeamA(View v) {
-
         yellowCardsTeamA = yellowCardsTeamA + 1;
         displayYellowCardsForTeamA(yellowCardsTeamA);
-
     }
 
     public void addRedCardTeamA(View v) {
-
         redCardsTeamA = redCardsTeamA + 1;
         displayRedCardsForTeamA(redCardsTeamA);
-
     }
 
-
     public void addGoalTeamB(View v) {
-
         goalsTeamB = goalsTeamB + 1;
         displayGoalsForTeamB(goalsTeamB);
-
     }
 
     public void addYellowCardTeamB(View v) {
-
         yellowCardsTeamB = yellowCardsTeamB + 1;
         displayYellowCardsForTeamB(yellowCardsTeamB);
-
     }
 
     public void addRedCardTeamB(View v) {
-
         redCardsTeamB = redCardsTeamB + 1;
         displayRedCardsForTeamB(redCardsTeamB);
-
     }
-
 
     /**
      * Displays the given number of Goals for Team A.
      */
+
     public void displayGoalsForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_goals);
         scoreView.setText(String.valueOf(score));
@@ -91,10 +78,10 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-
     /**
      * Displays the given number of Goals for Team B.
      */
+
     public void displayGoalsForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_goals);
         scoreView.setText(String.valueOf(score));

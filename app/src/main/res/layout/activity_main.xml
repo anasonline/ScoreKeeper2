@@ -12,7 +12,6 @@
         android:orientation="horizontal">
 
         <LinearLayout
-
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -120,6 +119,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
             android:background="@android:color/darker_gray" />
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -136,7 +136,6 @@
                 android:gravity="center_horizontal"
                 android:padding="4dp"
                 android:text="Team B"
-
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
