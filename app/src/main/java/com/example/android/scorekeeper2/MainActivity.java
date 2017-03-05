@@ -118,4 +118,26 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    /**
+     * Reset all.
+     */
+
+    public void reset(View v) {
+        goalsTeamA = 0;
+        yellowCardsTeamA = 0;
+        redCardsTeamA = 0;
+
+        goalsTeamB = 0;
+        yellowCardsTeamB = 0;
+        redCardsTeamB = 0;
+
+        displayGoalsForTeamA(goalsTeamA);
+        displayYellowCardsForTeamA(yellowCardsTeamA);
+        displayRedCardsForTeamA(redCardsTeamA);
+
+        displayGoalsForTeamB(goalsTeamB);
+        displayYellowCardsForTeamB(yellowCardsTeamB);
+        displayRedCardsForTeamB(redCardsTeamB);
+    }
+
 }
